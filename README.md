@@ -42,8 +42,7 @@ Run the frontend (Streamlit)
 streamlit run frontend/app_streamlit.py
 Upload documents and start asking questions!
 
-**
-##**Technical Details Embeddings
+## Technical Details Embeddings
 
 all-MiniLM-L6-v2 (via Sentence Transformers)
 
