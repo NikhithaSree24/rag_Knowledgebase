@@ -14,7 +14,6 @@ It allows you to search across multiple documents (PDF or text) and get **concis
 - Frontend interface built with Streamlit
 
 
-
 ## Setup Instructions
 
 1. **Clone the repository**
@@ -27,7 +26,7 @@ Create virtual environment and install dependencies
 
 python -m venv venv
 venv\Scripts\activate     # Windows
- or
+OR
 source venv/bin/activate  # Mac/Linux
 
 pip install -r requirements.txt
@@ -38,18 +37,17 @@ uvicorn api.main:app --reload
 Run the frontend (Streamlit)
 
 
-
 streamlit run frontend/app_streamlit.py
 Upload documents and start asking questions!
 
-## Technical Details Embeddings
-
-all-MiniLM-L6-v2 (via Sentence Transformers)
+## Technical Details
+Embeddings: all-MiniLM-L6-v2 (via Hugging Face / Sentence Transformers)
 
 Vector Store: FAISS (local)
 
-LLM: google/flan-t5-base (via Hugging Face Transformers)
+LLM: google/flan-t5-base (local, via Hugging Face Transformers)
 
 Backend: FastAPI
 
 Frontend: Streamlit
+
