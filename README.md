@@ -15,23 +15,6 @@ It allows you to search across multiple documents (PDF or text) and get **concis
 
 
 
-## Folder Structure
-
-rag_project/
-├── api/
-│ ├── main.py
-│ ├── rag_utils.py
-│ └── ingest.py
-├── frontend/
-│ └── app_streamlit.py
-├── docs/ (sample PDFs or text)
-├── .env
-├── requirements.txt
-├── .gitignore
-└── README.md
-
-
-
 ## Setup Instructions
 
 1. **Clone the repository**
