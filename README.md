@@ -16,14 +16,14 @@ It allows you to search across multiple documents (PDF or text) and get **concis
 
 ## Setup Instructions
 
-1. **Clone the repository**
+1.**Clone the repository**
 
 
 git clone <your-repo-url>
 cd rag_project
 Create virtual environment and install dependencies
 
-2. **Create virtual environment and install dependencies**
+2.**Create virtual environment and install dependencies**
 
 
 python -m venv venv
@@ -34,11 +34,10 @@ source venv/bin/activate  # Mac/Linux
 pip install -r requirements.txt
 Run the backend (FastAPI)
 
-3. ** Run the backend (FastAPI)**
+3.**Run the backend (FastAPI)**
 
 
 uvicorn api.main:app --reload
-Run the frontend (Streamlit)
 
 4.**Run the frontend (Streamlit)**
 
