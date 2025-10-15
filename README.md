@@ -23,6 +23,8 @@ git clone <your-repo-url>
 cd rag_project
 Create virtual environment and install dependencies
 
+2. **Create virtual environment and install dependencies**
+
 
 python -m venv venv
 venv\Scripts\activate     # Windows
@@ -32,13 +34,18 @@ source venv/bin/activate  # Mac/Linux
 pip install -r requirements.txt
 Run the backend (FastAPI)
 
+3. ** Run the backend (FastAPI)**
+
 
 uvicorn api.main:app --reload
 Run the frontend (Streamlit)
 
+4.**Run the frontend (Streamlit)**
+
 
 streamlit run frontend/app_streamlit.py
-Upload documents and start asking questions!
+
+5. **Upload documents and start asking questions!**
 
 ## Technical Details
 Embeddings: all-MiniLM-L6-v2 (via Hugging Face / Sentence Transformers)
