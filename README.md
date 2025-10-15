@@ -42,8 +42,10 @@ Run the frontend (Streamlit)
 streamlit run frontend/app_streamlit.py
 Upload documents and start asking questions!
 
-##Technical Details
-Embeddings: all-MiniLM-L6-v2 (via Sentence Transformers)
+**
+##**Technical Details Embeddings
+
+all-MiniLM-L6-v2 (via Sentence Transformers)
 
 Vector Store: FAISS (local)
 
