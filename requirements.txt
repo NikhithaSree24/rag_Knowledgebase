@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+langchain>=0.0.300
+openai
+faiss-cpu
+python-dotenv
+pydantic
+streamlit
+tqdm
+pypdf
+requests
+aiofiles
