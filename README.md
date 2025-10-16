@@ -21,7 +21,7 @@ It allows you to search across multiple documents (PDF or text) and get **concis
 
 git clone <your-repo-url>
 cd rag_project
-Create virtual environment and install dependencies
+
 
 2.**Create virtual environment and install dependencies**
 
